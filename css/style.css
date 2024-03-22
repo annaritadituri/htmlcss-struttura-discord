@@ -5,6 +5,10 @@
     font-family: "Hedvig Letters Sans", sans-serif;
 }
 
+/*
+Sezione header
+*/
+
 header {
     background-color: lightblue;
     padding-top: 10px;
@@ -12,7 +16,7 @@ header {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -48,4 +52,25 @@ header {
 .align-left {
     align-items: flex-end;
     padding-right: 5px;
+}
+
+/*
+Sezione contenitore pieno
+*/
+
+.full-container {
+    background-color: darkblue;
+    max-width: 100vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.full-container .row {
+    width: 60%;
+    height: 40vh;
+    background-color: fuchsia;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
