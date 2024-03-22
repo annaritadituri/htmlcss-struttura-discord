@@ -55,10 +55,10 @@ header {
 }
 
 /*
-Sezione contenitore pieno
+Sezione contenitore pieno fucsia
 */
 
-.full-container {
+.full-container-pink {
     background-color: darkblue;
     max-width: 100vw;
     margin: auto;
@@ -67,7 +67,7 @@ Sezione contenitore pieno
     justify-content: center;
 }
 
-.full-container .row {
+.full-container-pink .row {
     width: 60%;
     height: 40vh;
     background-color: fuchsia;
@@ -136,4 +136,25 @@ Sezione due colonne backgroud grigio
     width: 60%;
     background-color: skyblue;
     border: 1px dashed black;
+}
+
+/*
+Sezione contenitore pieno verde 
+*/
+
+.full-container-green {
+    background-color: lightgray;
+    max-width: 100vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.full-container-green .row {
+    width: 60%;
+    height: 70vh;
+    background-color: green;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
