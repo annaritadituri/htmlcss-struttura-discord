@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hedvig Letters Sans", sans-serif;
+}
+
+header {
+    background-color: lightblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.row {
+    height: 5vh;
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    border: 1px dashed black;
+    font-size: 18px;
+}
+
+.col-25 {
+    width: 25%;
+    height: 100%;
+    border: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5px;
+}
+
+.col-50 {
+    width: 50%;
+    height: 100%;
+    border: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.align-left {
+    align-items: flex-end;
+    padding-right: 5px;
+}
